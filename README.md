@@ -90,3 +90,14 @@ The program then switches back to the original window and opens a new tab. It na
 #SESSION 3 TASK 2
 
 Trying to automate a form submission on the "https://demoqa.com/automation-practice-form" website. The code is iterating through the firstname, lastname, email, and mobileno arrays and entering the values from these arrays into the corresponding fields on the form. It is also selecting the gender radio button and entering the date of birth. Finally, it is clicking the "Submit" button to submit the form.
+
+#SESSION 4 TASK 1
+This code is using the ChromeDriver to open the Chrome browser and navigate to the "https://www.zameen.com/" website. It then maximizes the window and prints the title of the website to the console.
+
+Next, it waits for 2 seconds, then switches to an iframe on the page, clicks on a close button, and switches back to the default content. It then waits for an element with the class "ef5cccac" to be clickable and clicks on it.
+
+After that, it waits for an element with the class "d92d11c7" to be clickable and clicks on it. It repeats this process for elements with the class "ad90f871" and "fontCompensation".
+
+Then, it enters values in two input elements with the class "12173fb7" and clicks on an element with the class "fontCompensation" again. It repeats this process for elements with the class "ef5cccac" and "12173fb7".
+
+Finally, it clicks on an element with the class "d92d11c7" and waits for the page to load.
